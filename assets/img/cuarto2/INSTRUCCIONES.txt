@@ -1,0 +1,1 @@
+Coloca aquí las fotos correspondientes (ej: 1.jpg, 2.jpg). Luego actualiza las etiquetas <img> en el archivo index.html con las rutas correctas (ej: assets/img/cuarto1/1.jpg).

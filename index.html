@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Base | Arriendos Universitarios Ibarra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-house-user"></i> Campus Base
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#habitaciones">Espacios</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/593990251911?text=Hola,%20quisiera%20información%20sobre%20los%20arriendos%20cerca%20de%20la%20UTN" target="_blank" class="btn btn-whatsapp-nav">
+                <i class="fa-brands fa-whatsapp"></i> Contactar
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Tu espacio ideal a pasos de la UTN</h1>
+            <p>Habitaciones y minidepartamentos modernos, seguros y diseñados para estudiantes. A solo 12 minutos caminando de la Universidad Técnica del Norte.</p>
+            <div class="hero-buttons">
+                <a href="#habitaciones" class="btn btn-primary">Ver Opciones</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Todo lo que necesitas, incluido</h2>
+                <p>Tu mensualidad cubre todos los servicios esenciales para que te enfoques en tus estudios.</p>
+            </div>
+            <div class="grid-servicios">
+                <div class="servicio-card">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>Luz y Agua</h3>
+                </div>
+                <div class="servicio-card">
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3>Internet de Alta Velocidad</h3>
+                </div>
+                <div class="servicio-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Seguridad</h3>
+                </div>
+                <div class="servicio-card">
+                    <i class="fa-solid fa-jug-detergent"></i>
+                    <h3>Área de Lavandería</h3>
+                </div>
+                <div class="servicio-card">
+                    <i class="fa-solid fa-sun"></i>
+                    <h3>Patio y Terraza</h3>
+                </div>
+                <div class="servicio-card">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Garaje (Consultar disp.)</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habitaciones Section -->
+    <section id="habitaciones" class="habitaciones section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: #FF6B6B;">Nuestros Espacios</h2>
+                <p>Todos los espacios cuentan con <strong>baño propio</strong> y <strong>alacenas</strong>. (No son amoblados). <em>Nota: Se requiere un mes de garantía.</em></p>
+            </div>
+
+            <div class="grid-habitaciones">
+                
+                <!-- Cuarto 1 -->
+                <div class="room-card">
+                    <div class="slider-container" data-folder="cuarto1">
+                        <img src="https://placehold.co/600x400/eeeeee/888888?text=Cuarto+Base+1" class="active" alt="Cuarto">
+                        <button class="slider-btn prev" style="display:none;"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="slider-btn next" style="display:none;"><i class="fa-solid fa-chevron-right"></i></button>
+                        <div class="price-tag">$80 / mes</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Habitación Estándar</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Baño privado</li>
+                            <li><i class="fa-solid fa-check"></i> Alacenas incluidas</li>
+                            <li><i class="fa-solid fa-check"></i> Espacio para cama y escritorio</li>
+                        </ul>
+                        <button class="btn btn-primary full-width btn-ver-mas" data-id="cuarto1">
+                            <i class="fa-solid fa-eye"></i> Ver más detalles
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cuarto 2 -->
+                <div class="room-card">
+                    <div class="slider-container" data-folder="cuarto2">
+                        <img src="https://placehold.co/600x400/eeeeee/888888?text=Cuarto+Plus+1" class="active" alt="Cuarto">
+                        <div class="price-tag">$95 / mes</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Habitación Plus</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Baño privado</li>
+                            <li><i class="fa-solid fa-check"></i> Alacenas amplias</li>
+                            <li><i class="fa-solid fa-check"></i> Mayor iluminación natural</li>
+                        </ul>
+                        <button class="btn btn-primary full-width btn-ver-mas" data-id="cuarto2">
+                            <i class="fa-solid fa-eye"></i> Ver más detalles
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Minidepartamento 1 -->
+                <div class="room-card">
+                    <div class="slider-container" data-folder="dep1">
+                        <img src="https://placehold.co/600x400/eeeeee/888888?text=MiniDep+1+Foto+1" class="active" alt="Mini departamento">
+                        <div class="price-tag">$105 / mes</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Minidepartamento Básico</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Dos ambientes</li>
+                            <li><i class="fa-solid fa-check"></i> Baño privado</li>
+                            <li><i class="fa-solid fa-check"></i> Alacenas y espacio para cocina</li>
+                        </ul>
+                        <button class="btn btn-primary full-width btn-ver-mas" data-id="dep1">
+                            <i class="fa-solid fa-eye"></i> Ver más detalles
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Minidepartamento 2 -->
+                <div class="room-card">
+                    <div class="slider-container" data-folder="dep2">
+                        <img src="https://placehold.co/600x400/eeeeee/888888?text=MiniDep+Premium+1" class="active" alt="Mini departamento">
+                        <div class="price-tag">$120 / mes</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Minidepartamento Premium</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> Ambientes amplios separados</li>
+                            <li><i class="fa-solid fa-check"></i> Baño privado amplio</li>
+                            <li><i class="fa-solid fa-check"></i> Alacenas de gran capacidad</li>
+                        </ul>
+                        <button class="btn btn-primary full-width btn-ver-mas" data-id="dep2">
+                            <i class="fa-solid fa-eye"></i> Ver más detalles
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación Section -->
+    <section id="ubicacion" class="ubicacion section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ubicación Privilegiada</h2>
+                <p>Nuestra ruta sugerida, a solo 12 minutos a pie de la Universidad Técnica del Norte.</p>
+            </div>
+            <div class="map-container">
+                <!-- Puedes cambiar el src del iframe por las coordenadas exactas. O si prefieres usar tu imagen, borra el <iframe> y usa la etiqueta <img> de abajo -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1994.5101684534725!2d-78.11883390000002!3d0.354155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMjEnMTUuMCJOIDc4wrAwNycwNy44Ilc!5e0!3m2!1ses!2sec!4v1714000000000!5m2!1ses!2sec" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <img src="assets/img/mapa/ruta-utn.jpg" alt="Mapa de ruta a la UTN" style="width:100%; height:100%; object-fit:cover;"> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Detalles (Página dentro de página) -->
+    <div id="room-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">Título del Espacio</h2>
+            </div>
+            <div class="modal-grid">
+                <!-- Izquierda: Galería -->
+                <div class="modal-gallery">
+                    <div class="modal-thumbnails" id="modal-thumbnails">
+                        <!-- Se llenan con JS -->
+                    </div>
+                    <div class="modal-main-img">
+                        <img id="modal-main-image" src="" alt="Vista principal">
+                    </div>
+                </div>
+                
+                <!-- Derecha: Info -->
+                <div class="modal-info">
+                    <div class="modal-info-box">
+                        <span class="modal-subtitle">Precio del canon de arrendamiento</span>
+                        <span class="modal-price" id="modal-price">$0 / mes</span>
+                        <a href="#" id="modal-whatsapp-btn" target="_blank" class="btn btn-whatsapp full-width modal-btn-agendar">
+                            Solicitar más información
+                        </a>
+                    </div>
+                    
+                    <div class="modal-specs" id="modal-specs">
+                        <!-- Iconos de specs (hab, baños, etc) -->
+                    </div>
+                    
+                    <div class="modal-description">
+                        <h3>Descripción</h3>
+                        <p id="modal-desc-text">Descripción detallada aquí.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Campus Base - Arriendos en Ibarra. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
